@@ -1,0 +1,271 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+}
+.container{
+    margin-top: 80px;
+}
+.report_for{
+    background-color:hsl(235, 46%, 20%) ;
+    border-radius: 20px;
+}
+.down{
+    border-radius: 20px;
+    height: auto;
+}
+.up{
+    background-color:  hsl(246, 80%, 60%);
+    border-radius: 20px;
+}
+.report_for .up img{
+  width: 70px;
+  height: 70px;
+  border: 3px solid ;
+  border-radius: 50px;
+    border-color: #fff;
+}
+.up .img{
+    padding:30px 30px ;
+    
+}
+.report_for .up h6{
+    color: rgb(172, 175, 176);
+    padding-left:  30px ;
+}
+.report_for .up h2{
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding-left:  30px ;
+    padding-bottom: 80px;
+}
+.report_for .down p{
+    
+    padding-left: 30px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.report_for .down .daily{
+    color:hsl(232, 18%, 50%) ;
+}
+.down .daily:hover {
+    color: #fff;
+    transition: all 1s;
+}
+
+.report_for .down .monthly{
+    padding-bottom: 30px;
+    color:hsl(232, 18%, 50%) ;
+}
+.down .monthly:hover {
+    color: #fff;
+    transition: all 1s;
+}
+.report_for .down .weekly{
+    color: #fff;
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(../images/icon-play.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(../images/icon-study.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(../images/icon-exercise.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(../images/icon-social.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.selfcare{
+    background-color:  hsl(43, 84%, 65%);
+    background-image: url(../images/icon-self-care.svg);
+    background-repeat: no-repeat;
+    background-position: 140px top;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card,.card2{
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+    top:40px;
+    border-radius: 10px;
+    color: #fff;
+}
+.card:hover{
+    background-color:   hsl(236, 38%, 26%);
+}
+.card2:hover{
+    background-color:   hsl(236, 38%, 26%);;
+}
+.card .top ,.card2 .top{
+    display: flex;
+    padding-top: 20px;
+}
+.card p, h5, h3{
+    padding-left: 20px;
+}
+.card2 p, h5, h3{
+    padding-left: 20px;
+}
+h5{
+   font-weight: 500;
+}
+h3{
+    font-weight: 200;
+    font-size: 40px;
+    padding-top:10px;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 14px;
+    color: hsl(232, 53%, 80%) ;
+}
+.card i{
+  position: relative;
+  left: 110px;
+}
+.card2 i{
+    position: relative;
+    left:90px;
+}
+.card{
+    padding-bottom: 15px;
+}
+.card2{
+    padding-bottom: 15px;
+}
+.exercise,.selfcare,.social{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    .up{
+        height: 120px;
+        display: flex;
+        justify-content:left;
+    }
+    .text{
+        position: relative;
+        left: -30px;
+        padding-top: 30px;
+        
+    }
+    .text h2{
+        font-size: 16px;
+        font-weight: 100; 
+    }
+
+    .report_for .down p{
+       display: inline;
+       padding-left: 44px;
+       position: relative;
+       top: 20px;
+    }
+    .down{
+        height: 60px;
+    }
+    .work .top i{
+        position: relative;
+        left: 200px;
+    }
+    .play .top i{
+        position: relative;
+        left: 215px;
+    }
+    .study  .top i{
+        position: relative;
+        left: 200px;
+    }
+     .exercise .top i{
+        position: relative;
+        left: 180px;
+    }
+    .selfcare .top i{
+        position: relative;
+        left: 170px;
+    }
+    .social .top i{
+        position: relative;
+        left: 200px;
+    }
+    .bottom{
+        display: flex;
+    }
+    .bottom p{
+        position: relative;
+        left: 70px;
+        bottom:-25px;
+    }
+    .work p{
+        position: relative;
+        left: 40px;
+    }
+    .play p{
+        position: relative;
+        left: 50px;
+    }
+    .col-md-9 .work{
+       margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .col-md-9 .play{
+        /* margin-top: 20px; */
+         margin-bottom: 70px;
+     }
+
+     .container{
+         margin-bottom: 100px;
+     }
+
+     .work ,.work , .study , .play , .exercise , .social , .selfcare{
+        background-repeat: no-repeat;
+        background-position: 220px top ;
+     }
+}
